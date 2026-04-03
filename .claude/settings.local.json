@@ -22,7 +22,8 @@
       "Bash(tools/venv/bin/python tools/youtube_transcript.py \"https://www.youtube.com/watch?v=dQw4w9WgXcQ\")",
       "Bash(tools/venv/bin/python -c \"from youtube_transcript_api import YouTubeTranscriptApi; help\\(YouTubeTranscriptApi\\)\")",
       "Bash(tools/venv/bin/python tools/youtube_transcript.py \"https://www.youtube.com/watch?v=8cQidXgtGmU\")",
-      "Bash(chmod +x:*)"
+      "Bash(chmod +x:*)",
+      "Bash(/Users/scottbradley/Desktop/Claude/claude workspace template \\(TPAI\\)/scripts/backup.sh:*)"
     ]
   }
 }
