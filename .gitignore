@@ -1,0 +1,6 @@
+.env
+tools/venv/
+scripts/telegram_bot/venv/
+__pycache__/
+*.pyc
+.DS_Store

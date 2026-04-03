@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 install:*)",
+      "Bash(/opt/homebrew/bin/python3 --version)",
+      "Read(//opt/homebrew/**)",
+      "Read(//Users/scottbradley/.pyenv/**)",
+      "Bash(/opt/homebrew/bin/brew install:*)",
+      "Bash(/opt/homebrew/bin/pip3 install:*)",
+      "Bash(/opt/homebrew/bin/python3 -m venv venv)",
+      "Bash(venv/bin/pip install:*)",
+      "Bash(pkill -f \"python bot.py\")",
+      "Bash(pkill -f \"venv/bin/python\")",
+      "Bash(pkill -9 -f \"bot.py\")",
+      "Bash(pkill -9 -f \"python3.14\")",
+      "Bash(open:*)",
+      "Bash(pkill -9 -f \"bot.py\" cd \"/Users/scottbradley/Desktop/Claude/claude workspace template \\(TPAI\\)/scripts/telegram_bot\")",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(/opt/homebrew/bin/python3 -m venv tools/venv)",
+      "Bash(tools/venv/bin/pip install:*)",
+      "Bash(tools/venv/bin/python tools/youtube_transcript.py \"https://www.youtube.com/watch?v=dQw4w9WgXcQ\")",
+      "Bash(tools/venv/bin/python -c \"from youtube_transcript_api import YouTubeTranscriptApi; help\\(YouTubeTranscriptApi\\)\")",
+      "Bash(tools/venv/bin/python tools/youtube_transcript.py \"https://www.youtube.com/watch?v=8cQidXgtGmU\")"
+    ]
+  }
+}
